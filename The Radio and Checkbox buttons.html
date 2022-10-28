@@ -1,0 +1,89 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Radio and Checkbox Buttons</title>
+        <style>
+            body {
+                background-color: #679799;
+            }
+           div {
+            margin: auto;
+            padding: 8%;
+            width: 100%;
+            max-width: 300px;
+            
+            }
+
+            form {
+                padding: 15px 60px ;
+                width: 250px;
+                margin: auto;
+                
+            }
+            input {
+                width: 250px;
+            }
+
+           
+            /*p {
+                margin: 10px;
+                text-align: center;
+                font-weight: bold;
+                font-size: large;
+                color:  darkblue;*/
+                
+            
+            h3 {
+                text-align: center;
+                padding: 5px;
+                color: whitesmoke;
+                font-size: x-large;
+                                
+            }
+      
+            
+           /* width: 100%;
+                margin: 20px auto;
+                padding: 20px;
+                max-width: 300px;
+                border: 2px solid brown;*/
+        </style>
+    </head>
+    <body>
+        <h3>Attributes of a car:</h3>
+
+        <form id="form_layout"  action="\action_page.php" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" name="yourFullName" id="name" placeholder="Enter your name"> <br>
+            <label for="email">Email</label>
+            <input type="email" name="yourFullName" id="email" placeholder="Enter your email"><br>
+            <label for="telephone">Telephone</label>
+            <input type="telephone" name="telephone" id="telephone" placeholder="Enter your telephone no" max="10"><br>
+            <label for="contact_address">Contact address</label>
+            <input type="text" name="yourFullName" id="contact_address" placeholder="Enter your name">
+
+        <div class="optsel">
+            <p>Which of the following will you prefer first?</p>
+            <input type="radio" name="radio" value="car">Car
+            <br>
+            <input type="radio" name="radio" value="garage">Garage
+            <br>  
+            <input type="radio" name="radio" value="driver">Driver
+            <br>
+            </div>
+
+            <div>
+            <p>Select a car for Christmas</p>
+            <input type="checkbox" name="checkbox"value="volvo">Volvo <br>
+            <input type="checkbox" name="checkbox"value="Mercedes">Mercedes <br>
+            <input type="checkbox" name="checkbox"value="Toyota">Toyota <br>
+            <input type="checkbox" name="checkbox"value="L.Urus">L.Urus
+        </div>    
+          
+        </form>
+        
+    </body>
+    </html>
